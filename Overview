@@ -1,0 +1,36 @@
+🖼️ Pixel Manipulation for Image Encryption 🔐
+A simple yet effective Python GUI tool for encrypting and decrypting images by manipulating their pixel values. This project demonstrates how to implement custom image encryption using pixel-wise operations and a secret key.
+
+📌 Features
+📁 Load images from your device
+
+🔐 Encrypt images with a custom numeric key
+
+🔓 Decrypt encrypted images using the same key
+
+💻 User-friendly GUI built using Tkinter
+
+📦 Supports .png, .jpg, .jpeg, and .bmp formats
+
+🛠️ Technologies Used
+Python
+
+Tkinter for GUI
+
+Pillow (PIL) for image handling
+
+Custom pixel shifting logic for encryption/decryption
+
+🧠 How It Works
+The encryption works by shifting the RGB values of each pixel using a key provided by the user.
+
+The decryption reverses this shift using the same key.
+
+The tool ensures that the original image can be perfectly restored if the correct key is used.
+
+📌 Use Cases
+Educational demonstration of image encryption
+
+Basic security layer for storing sensitive images
+
+Digital art experimentation
